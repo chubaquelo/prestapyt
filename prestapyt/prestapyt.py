@@ -527,8 +527,8 @@ class PrestaShopWebServiceDict(PrestaShopWebService):
 
 
 if __name__ == '__main__':
-    prestashop = PrestaShopWebServiceDict('http://localhost:8080/api',
-                                          'BVWPFFYBT97WKM959D7AVVD0M4815Y1L')
+    prestashop = PrestaShopWebServiceDict('http://www.tecnicina.com.ar/api',
+                                          'lashojasestanenelbosquelashojass')
     #prestashop.debug = True
 
     from pprint import pprint
